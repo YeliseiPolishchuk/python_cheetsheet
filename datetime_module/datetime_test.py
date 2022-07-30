@@ -37,9 +37,9 @@ print(f'{current_time.timestamp()} seconds after 1970-01-01')
 ts_from_birth = date1.timestamp()
 print(f'{datetime.fromtimestamp(ts_from_birth+100000)} date after 100.000 seconds from my birth')
 
-# strftime - datetime to str
+# strftime - datetime_module to str
 print(date1.strftime('%A %d %B %Y'))
 
-#strptime - str to datetime
+#strptime - str to datetime_module
 s = '27 February 1980'
 print(datetime.strptime(s, '%d %B %Y'))
